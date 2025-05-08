@@ -106,7 +106,7 @@ public class User extends BaseEntity {
     }
 
     /**
-     * Valida que los campos obligatorios estén presentes.
+     * Válida que los campos obligatorios estén presentes.
      */
     public boolean isValidUser() {
         return name != null && !name.isEmpty() &&
